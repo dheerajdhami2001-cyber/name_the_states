@@ -57,8 +57,6 @@ pip install pandas
 * india.gif (map image)
 
 Project Structure
-bash
-Copy code
 name_the_states/
 │
 ├── 28_states.csv       # State coordinates data
@@ -70,17 +68,20 @@ name_the_states/
 └── README.md           # Project description
 
 
+
 StateName Class Overview
 state_name.py contains the StateName class:
 
-all_names(): Returns a list of all states from the CSV file.
+* all_names(): Returns a list of all states from the CSV file.
 
-set_coordinate(state): Returns the (x, y) coordinates of a state.
+* set_coordinate(state): Returns the (x, y) coordinates of a state.
 
-move_to(coordinate, state): Moves the turtle to the state location and writes the state name.
+* move_to(coordinate, state): Moves the turtle to the state location and writes the state name.
 
 Credits
-This project idea and inspiration came from Angela Yu’s 100 Days of Code: The Complete Python Pro Bootcamp.
+
+This project idea and inspiration came from Angela Yu’s 100 Days of Code: The Complete Python Pro Bootcamp
+.
 Huge thanks to Angela Yu for creating an engaging, professional, and beginner-friendly Python course that inspired this project!
 
 License
